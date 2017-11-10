@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "YouTube Extension",
+	"description": "DESCRIPTION",
+	"version": "65535.9.9.9",
+
+	"browser_action": {
+		"default_icon": "Extension.png",
+		"default_popup": "popup.html"
+	},
+/*
+	"icons": {
+		"16": "Extension.png",
+		"48": "Extension.png",
+		"128": "Extension.png"
+	},
+*/	
+	"permissions": [
+		"activeTab",
+		"tabs"
+	]
+}

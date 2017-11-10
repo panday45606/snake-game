@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+
+	"name": "Pong Extension",
+	"description": "This is a ghetto version of Pong.",
+	"version": "65535.9.9.9",
+
+	"browser_action": {
+		"default_icon": "pongIcon.png",
+		"default_popup": "popupPong.html"
+	},
+/*
+	"icons": {
+		"16": "Extension.png",
+		"48": "Extension.png",
+		"128": "Extension.png"
+	},
+*/	
+	"permissions": [
+		"activeTab",
+		"tabs"
+	]
+}
